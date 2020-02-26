@@ -1,0 +1,154 @@
+Script started on 2020-02-26 09:36:57+0530
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ stty -a
+speed 38400 baud; rows 24; columns 80; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>;
+eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R;
+werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff
+-iuclc -ixany -imaxbel iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt
+echoctl echoke -flusho -extproc
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ x[Kwhoami
+krishagni
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ s[Kwho
+krishagni :0           2020-02-26 08:43 (:0)
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ finger
+Login      Name        Tty      Idle  Login Time   Office     Office Phone
+krishagni  Krishagni  *:0             Feb 26 08:43 (:0)
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ finger[K[K[K[K[K[Kdate
+Wed Feb 26 09:40:35 IST 2020
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ cal
+   February 2020      
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 [7m26[27m 27 28 29  
+                      
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ ls
+a1script        [0m[01;32massignment3.sh[0m  [01;32massignment6.sh[0m  Ion.txt    sed
+[01;32massignment1.sh[0m  [01;32massignment4.sh[0m  design          new.txt    student.txt
+[01;32massignment2.sh[0m  [01;32massignment5.sh[0m  echo            README.md  [01;32mtemp.sh[0m
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ ls -a
+[0m[01;34m.[0m         [01;32massignment1.sh[0m  [01;32massignment4.sh[0m  design  Ion.txt    sed
+[01;34m..[0m        [01;32massignment2.sh[0m  [01;32massignment5.sh[0m  echo    new.txt    student.txt
+a1script  [01;32massignment3.sh[0m  [01;32massignment6.sh[0m  [01;34m.git[0m    README.md  [01;32mtemp.sh[0m
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ ls -l
+total 152
+-rw-r--r-- 1 krishagni krishagni     0 Feb 26 09:36 a1script
+-rwxrwxr-x 1 krishagni krishagni   280 Feb 24 12:11 [0m[01;32massignment1.sh[0m
+-rwxrwxr-x 1 krishagni krishagni   246 Feb 24 12:11 [01;32massignment2.sh[0m
+-rwxrwxr-x 1 krishagni krishagni   284 Feb 24 12:11 [01;32massignment3.sh[0m
+-rwxrwxrwx 1 krishagni krishagni   367 Feb 24 12:14 [01;32massignment4.sh[0m
+-rwxrw-r-- 1 krishagni krishagni   104 Feb 24 13:22 [01;32massignment5.sh[0m
+-rwxrwxrwx 1 krishagni krishagni   130 Feb 25 09:57 [01;32massignment6.sh[0m
+-rw-rw-r-- 1 krishagni krishagni     0 Feb 24 12:11 design
+-rw-rw-r-- 1 krishagni krishagni    29 Feb 24 12:11 echo
+-rw-rw-r-- 1 krishagni krishagni 55890 Feb 24 12:11 Ion.txt
+-rw-rw-r-- 1 krishagni krishagni 55890 Feb 24 12:14 new.txt
+-rw-rw-r-- 1 krishagni krishagni     0 Feb 24 12:11 README.md
+-rw-rw-r-- 1 krishagni krishagni    58 Feb 24 12:11 sed
+-rw-rw-r-- 1 krishagni krishagni    95 Feb 24 12:11 student.txt
+-rwxrwxr-x 1 krishagni krishagni   116 Feb 24 12:11 [01;32mtemp.sh[0m
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ cat /etc/p asswd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+syslog:x:104:108::/home/syslog:/bin/false
+_apt:x:105:65534::/nonexistent:/bin/false
+messagebus:x:106:110::/var/run/dbus:/bin/false
+uuidd:x:107:111::/run/uuidd:/bin/false
+lightdm:x:108:114:Light Display Manager:/var/lib/lightdm:/bin/false
+whoopsie:x:109:116::/nonexistent:/bin/false
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+avahi:x:111:120:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+colord:x:113:123:colord colour management daemon,,,:/var/lib/colord:/bin/false
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+hplip:x:115:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+pulse:x:117:124:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+rtkit:x:118:126:RealtimeKit,,,:/proc:/bin/false
+saned:x:119:127::/var/lib/saned:/bin/false
+usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:/bin/false
+krishagni:x:1000:1000:Krishagni,,,:/home/krishagni:/bin/bash
+guest-0s7mkb:x:999:999:Guest:/tmp/guest-0s7mkb:/bin/bash
+guest-d1jogx:x:998:998:Guest:/tmp/guest-d1jogx:/bin/bash
+guest-moakhg:x:997:997:Guest:/tmp/guest-moakhg:/bin/bash
+cups-pk-helper:x:103:113:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+geoclue:x:121:105::/var/lib/geoclue:/usr/sbin/nologin
+gdm:x:122:129:Gnome Display Manager:/var/lib/gdm3:/bin/false
+gnome-initial-setup:x:123:65534::/run/gnome-initial-setup/:/bin/false
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ cle[K[K[Kls -l
+total 156
+-rw-r--r-- 1 krishagni krishagni  4096 Feb 26 09:40 a1script
+-rwxrwxr-x 1 krishagni krishagni   280 Feb 24 12:11 [0m[01;32massignment1.sh[0m
+-rwxrwxr-x 1 krishagni krishagni   246 Feb 24 12:11 [01;32massignment2.sh[0m
+-rwxrwxr-x 1 krishagni krishagni   284 Feb 24 12:11 [01;32massignment3.sh[0m
+-rwxrwxrwx 1 krishagni krishagni   367 Feb 24 12:14 [01;32massignment4.sh[0m
+-rwxrw-r-- 1 krishagni krishagni   104 Feb 24 13:22 [01;32massignment5.sh[0m
+-rwxrwxrwx 1 krishagni krishagni   130 Feb 25 09:57 [01;32massignment6.sh[0m
+-rw-rw-r-- 1 krishagni krishagni     0 Feb 24 12:11 design
+-rw-rw-r-- 1 krishagni krishagni    29 Feb 24 12:11 echo
+-rw-rw-r-- 1 krishagni krishagni 55890 Feb 24 12:11 Ion.txt
+-rw-rw-r-- 1 krishagni krishagni 55890 Feb 24 12:14 new.txt
+-rw-rw-r-- 1 krishagni krishagni     0 Feb 24 12:11 README.md
+-rw-rw-r-- 1 krishagni krishagni    58 Feb 24 12:11 sed
+-rw-rw-r-- 1 krishagni krishagni    95 Feb 24 12:11 student.txt
+-rwxrwxr-x 1 krishagni krishagni   116 Feb 24 12:11 [01;32mtemp.sh[0m
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ te[K[Kcat test1
+cat: test1: No such file or directory
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ cat test2
+cat: test2: No such file or directory
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ cat > test  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct w[K2
+th  This is file two.
+It has sevral lines.
+In fact, three lines.
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ ls --[Kl
+total 164
+-rw-r--r-- 1 krishagni krishagni  8192 Feb 26 09:43 a1script
+-rwxrwxr-x 1 krishagni krishagni   280 Feb 24 12:11 [0m[01;32massignment1.sh[0m
+-rwxrwxr-x 1 krishagni krishagni   246 Feb 24 12:11 [01;32massignment2.sh[0m
+-rwxrwxr-x 1 krishagni krishagni   284 Feb 24 12:11 [01;32massignment3.sh[0m
+-rwxrwxrwx 1 krishagni krishagni   367 Feb 24 12:14 [01;32massignment4.sh[0m
+-rwxrw-r-- 1 krishagni krishagni   104 Feb 24 13:22 [01;32massignment5.sh[0m
+-rwxrwxrwx 1 krishagni krishagni   130 Feb 25 09:57 [01;32massignment6.sh[0m
+-rw-rw-r-- 1 krishagni krishagni     0 Feb 24 12:11 design
+-rw-rw-r-- 1 krishagni krishagni    29 Feb 24 12:11 echo
+-rw-rw-r-- 1 krishagni krishagni 55890 Feb 24 12:11 Ion.txt
+-rw-rw-r-- 1 krishagni krishagni 55890 Feb 24 12:14 new.txt
+-rw-rw-r-- 1 krishagni krishagni     0 Feb 24 12:11 README.md
+-rw-rw-r-- 1 krishagni krishagni    58 Feb 24 12:11 sed
+-rw-rw-r-- 1 krishagni krishagni    95 Feb 24 12:11 student.txt
+-rwxrwxr-x 1 krishagni krishagni   116 Feb 24 12:11 [01;32mtemp.sh[0m
+-rw-r--r-- 1 krishagni krishagni    61 Feb 26 09:44 test2
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ cat test2
+This is file two.
+It has sevral lines.
+In fact, three lines.
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ exit
+exit
+
+Script done on 2020-02-26 09:44:53+0530
