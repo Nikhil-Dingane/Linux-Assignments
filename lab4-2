@@ -1,0 +1,13 @@
+=These are the services that an operating=
+=system (os) such as Linux performs:=
+=1. the os decides which application=
+=run at any instant in time=
+=2. the os performs=
+=memory management=
+=3. the os controls acess to hardware=
+=devices=
+=4. when there are operation errors, the= 
+=os reports these errors to the=
+=application and the user=
+=5. the os provides tools for the user=
+=to perform basic services=

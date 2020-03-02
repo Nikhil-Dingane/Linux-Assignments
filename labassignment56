@@ -1,0 +1,76 @@
+Script started on 2020-03-02 09:35:52+0530
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ cd
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ touch temp1
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ pwd
+/home/krishagni
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ ls -F /
+[0m[01;34mbin[0m/    [01;34mdev[0m/         [01;36minitrd.img.old[0m@  [01;34mlost+found[0m/  [01;34mproc[0m/  [01;34msnap[0m/  [01;34musr[0m/
+[01;34mboot[0m/   [01;34metc[0m/         [01;34mlib[0m/             [01;34mmedia[0m/       [01;34mroot[0m/  [01;34msrv[0m/   [01;34mvar[0m/
+[01;34mcdrom[0m/  [01;34mhome[0m/        [01;34mlib32[0m/           [01;34mmnt[0m/         [01;34mrun[0m/   [01;34msys[0m/   [01;36mvmlinuz[0m@
+core    [01;36minitrd.img[0m@  [01;34mlib64[0m/           [01;34mopt[0m/         [01;34msbin[0m/  [30;42mtmp[0m/   [01;36mvmlinuz.old[0m@
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ ch /L[Khome/krishagni/dir[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir dir1 dir2
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ ch /home/krishagni/dir1
+ch: command not found
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ cd /home//[Kkrishagni/dir1
+]0;krishagni@krishagni-Lenovo-G560: ~/dir1[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/dir1[00m$ cp ../temp1 ./
+]0;krishagni@krishagni-Lenovo-G560: ~/dir1[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/dir1[00m$ cp ..[K/temp1 ../tem[K[K[Kdir2/temp2
+]0;krishagni@krishagni-Lenovo-G560: ~/dir1[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/dir1[00m$ cd
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ mv dir2 [K[K[K[K[K[K[K[Kmv di2[Kr2 dir1
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ ls -F [K[K[K./dir1/dir2
+temp2
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ ln ./dir1/temp1 linke[K1
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ ln ./dir1t[K/temp1 ./dir1/dir2/link2
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ ls -li /dir/[K1/tem[K[K[K[K[K[K[K[K[K./dir1/temp1 [K
+1049232 -rw-r--r-- 3 krishagni krishagni 0 Mar  2 09:36 ./dir1/temp1
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ ln .[K/home l[K[K[K[K[K[K[K-s home[K[K[K[K[K /home ./dir1/dir2/home
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ which ll
+]0;krishagni@krishagni-Lenovo-G560: ~[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~[00m$ cd /home
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ ls -ld .
+drwxr-xr-x 3 root root 4096 Jun 13  2018 [0m[01;34m.[0m
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ c[Kmdi[K[Kkdir f1 f2
+mkdir: cannot create directory ‘f1’: Permission denied
+mkdir: cannot create directory ‘f2’: Permission denied
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ sudo mkdir f1 f2
+[sudo] password for krishagni: 
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ ch[K[Ksudo a[Kchmode[K 740 f1 f2
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ ls -ls f1 f2
+ls: cannot open directory 'f1': Permission denied
+ls: cannot open directory 'f2': Permission denied
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ sudo ls [K[K[Kls -l f1 f2
+f1:
+total 0
+
+f2:
+total 0
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ sudo ls -l f1 f2[1@s[1@u[1@d[1@o[C[1@ [1P[1P[1P[1P[1P[1P[1P[1P f2[1Pf2[1P2[K
+total 12
+drwxr-----  2 root      root      4096 Mar  2 09:55 f1
+drwxr-----  2 root      root      4096 Mar  2 09:55 f2
+drwxr-xr-x 28 krishagni krishagni 4096 Mar  2 09:41 krishagni
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ echo "No, because group has only read and  execute permission they dont have write permission"
+No, because group has only read and execute permission they dont have write permission
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ w[Ksuo[Kdo chmod u=rw,g=x f1
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ ls -l f1
+ls: cannot open directory 'f1': Permission denied
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ sudo ls -l f1
+total 0
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ sudo ls -l f1[K[K[K
+total 12
+drw---x---  2 root      root      4096 Mar  2 09:55 f1
+drwxr-----  2 root      root      4096 Mar  2 09:55 f2
+drwxr-xr-x 28 krishagni krishagni 4096 Mar  2 09:41 krishagni
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ umask 077[K[K66
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ l[Ktouch f3
+touch: cannot touch 'f3': Permission denied
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ sudo touch f3
+[sudo] password for krishagni: 
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ ls -l [K
+total 12
+drw---x---  2 root      root      4096 Mar  2 09:55 [0m[01;34mf1[0m
+drwxr-----  2 root      root      4096 Mar  2 09:55 [01;34mf2[0m
+-rw-------  1 root      root         0 Mar  2 10:55 f3
+drwxr-xr-x 28 krishagni krishagni 4096 Mar  2 09:41 [01;34mkrishagni[0m
+]0;krishagni@krishagni-Lenovo-G560: /home[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m/home[00m$ exit
+exit
+
+Script done on 2020-03-02 10:55:43+0530
