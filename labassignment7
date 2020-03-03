@@ -1,0 +1,171 @@
+Script started on 2020-03-03 09:53:42+0530
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ mesg n
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ mail
+No mail for krishagni
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ mail nik[K[K[Ktestu [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Knikhi l
+Cc: nikhil@krishagni@[K.com
+Subject: E[Kemail 1
+ ~r /home/krishagni/clean.sh [K[K[K[K[K[K[K[K[Knew.txt 
+"/home/krishagni/new.txt" 2/68
+ the end
+ ]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ mail
+"/var/mail/krishagni": 1 message 1 new
+>N   1 Mail Delivery Syst Tue Mar  3 10:13  71/2451  Undelivered Mail Returned
+? 1
+Return-Path: <>
+X-Original-To: krishagni@krishagni-Lenovo-G560
+Delivered-To: krishagni@krishagni-Lenovo-G560
+Received: by krishagni-Lenovo-G560 (Postfix)
+	id 9DC6AA2247C; Tue,  3 Mar 2020 10:13:39 +0530 (IST)
+Date: Tue,  3 Mar 2020 10:13:39 +0530 (IST)
+From: MAILER-DAEMON@krishagni-Lenovo-G560 (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: krishagni@krishagni-Lenovo-G560
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="C3052A2246F.1583210619/krishagni-Lenovo-G560"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20200303044339.9DC6AA2247C@krishagni-Lenovo-G560>
+
+This is a MIME-encapsulated message.
+
+--C3052A2246F.1583210619/krishagni-Lenovo-G560
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+[7m--More--[27mThis is the mail system at host krishagni-lenovo-g560.
+[7m--More--[27m[K
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<testuser@krishagni-Lenovo-G560>: unknown user: "testuser"
+
+--C3052A2246F.1583210619/krishagni-Lenovo-G560
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; krishagni-Lenovo-G560
+X-Postfix-Queue-ID: C3052A2246F
+X-Postfix-Sender: rfc822; krishagni@krishagni-Lenovo-G560
+Arrival-Date: Tue,  3 Mar 2020 10:13:36 +0530 (IST)
+
+Final-Recipient: rfc822; testuser@krishagni-Lenovo-G560
+[7m--More--[27m[K
+...skipping 1 line
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: X-Postfix; unknown user: "testuser"
+
+--C3052A2246F.1583210619/krishagni-Lenovo-G560
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <krishagni@krishagni-Lenovo-G560>
+Received: by krishagni-Lenovo-G560 (Postfix, from userid 1000)
+	id C3052A2246F; Tue,  3 Mar 2020 10:13:36 +0530 (IST)
+To: <testuser@krishagni-Lenovo-G560>
+Cc: <nikhil@krishagni.com>
+Subject: email 1
+X-Mailer: mail (GNU Mailutils 3.4)
+Message-Id: <20200303044336.C3052A2246F@krishagni-Lenovo-G560>
+Date: Tue,  3 Mar 2020 10:13:36 +0530 (IST)
+From: Krishagni <krishagni@krishagni-Lenovo-G560>
+
+the end
+
+--C3052A2246F.1583210619/krishagni-Lenovo-G560--
+? t[Km test [Kuser
+Cc: nikhil@krishagni.com
+Subject: forwarding
+ -m[K[K![K~m 1
+Interpolating: 1
+(continue)
+ -[K~v
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"/tmp/muHynUfz" 71 lines, 2522 characters[1;9HReturn-Path: <>[2;9HX-Original-To: krishagni@krishagni-Lenovo-G560[3;9HDelivered-To: krishagni@krishagni-Lenovo-G560[4;9HReceived: by krishagni-Lenovo-G560 (Postfix)[5;17Hid 9DC6AA2247C; Tue,  3 Mar 2020 10:13:39 +0530 (IST)[6;9HDate: Tue,  3 Mar 2020 10:13:39 +0530 (IST)[7;9HFrom: MAILER-DAEMON@krishagni-Lenovo-G560 (Mail Delivery System)[8;9HSubject: Undelivered Mail Returned to Sender[9;9HTo: krishagni@krishagni-Lenovo-G560[10;9HAuto-Submitted: auto-replied[11;9HMIME-Version: 1.0[12;9HContent-Type: multipart/report; report-type=delivery-status;[13;17Hboundary="C3052A2246F.1583210619/krishagni-Lenovo-G560"[14;9HContent-Transfer-Encoding: 8bit[15;9HMessage-Id: <20200303044339.9DC6AA2247C@krishagni-Lenovo-G560>[17;9HThis is a MIME-encapsulated message.[19;9H--C3052A2246F.1583210619/krishagni-Lenovo-G560[20;9HContent-Description: Notification[21;9HContent-Type: text/plain; charset=utf-8[22;9HContent-Transfer-Encoding: 8bit[1;9H[?25h[2;9H[3;9H[4;9H[5;16H[6;9H[7;9H[8;9H[9;9H[10;9H[11;9H[12;9H[13;16H[14;9H[15;9H[16;8H[17;9H[18;8H[19;9H[20;9H[21;9H[22;9H[23;8H[?25l[1;23r[23;1H
+[1;24r[23;9HThis is the mail system at host krishagni-lenovo-g560.[24;1H[K[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HI'm sorry to have to inform you that your message could not[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hbe delivered to one or more recipients. It's attached below.[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HFor further assistance, please send mail to postmaster.[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HIf you do so, please include this problem report. You can[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hdelete your own text from the attached returned message.[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;28HThe mail system[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H<testuser@krishagni-Lenovo-G560>: unknown user: "testuser"[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H--C3052A2246F.1583210619/krishagni-Lenovo-G560[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HContent-Description: Delivery report[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HContent-Type: message/delivery-status[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HReporting-MTA: dns; krishagni-Lenovo-G560[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HX-Postfix-Queue-ID: C3052A2246F[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HX-Postfix-Sender: rfc822; krishagni@krishagni-Lenovo-G560[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HArrival-Date: Tue,  3 Mar 2020 10:13:36 +0530 (IST)[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HFinal-Recipient: rfc822; testuser@krishagni-Lenovo-G560[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HOriginal-Recipient: rfc822;testuser@krishagni-Lenovo-G560[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HAction: failed[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HStatus: 5.1.1[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HDiagnostic-Code: X-Postfix; unknown user: "testuser"[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H--C3052A2246F.1583210619/krishagni-Lenovo-G560[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HContent-Description: Undelivered Message[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HContent-Type: message/rfc822[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HContent-Transfer-Encoding: 8bit[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HReturn-Path: <krishagni@krishagni-Lenovo-G560>[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HReceived: by krishagni-Lenovo-G560 (Postfix, from userid 1000)[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;17Hid C3052A2246F; Tue,  3 Mar 2020 10:13:36 +0530 (IST)[23;16H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HTo: <testuser@krishagni-Lenovo-G560>[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HCc: <nikhil@krishagni.com>[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HSubject: email 1[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HX-Mailer: mail (GNU Mailutils 3.4)[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HMessage-Id: <20200303044336.C3052A2246F@krishagni-Lenovo-G560>[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HDate: Tue,  3 Mar 2020 10:13:36 +0530 (IST)[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9HFrom: Krishagni <krishagni@krishagni-Lenovo-G560>[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9Hthe end[23;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;8H[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H--C3052A2246F.1583210619/krishagni-Lenovo-G560--[23;9H[?25h[?25l
+:[?2004h[?25hq[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[23;0;0t(continue)
+ ? d 1
+New mail has arrived.
+? exit
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ mail
+"/var/mail/krishagni": 2 messages 2 new
+>N   1 Mail Delivery Syst Tue Mar  3 10:13  71/2451  Undelivered Mail Returned
+ N   2 Mail Delivery Syst Tue Mar  3 10:22 141/4968  Undelivered Mail Returned
+? R1[K 1
+To: MAILER-DAEMON@krishagni-Lenovo-G560
+Subject: Re: Undelivered Mail Returned to Sender
+
+ d[KNull message body; hope that's ok
+? s 2 f[K
+"/home/krishagni/Linux_Assignment/Linux-Assignments/2"  73/2497 
+? quit
+Held 1 message in /var/mail/krishagni
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ echo "exit  command act as you had not open current session before quit"
+exit command act as you had not open current session before quit
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ mail -f 2
+"/home/krishagni/Linux_Assignment/Linux-Assignments/2": 1 message 1 new
+>N   1 Mail Delivery Syst Tue Mar  3 10:13  71/2451  Undelivered Mail Returned
+? quit
+Held 1 message in /home/krishagni/Linux_Assignment/Linux-Assignments/2
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ exit
+exit
+
+Script done on 2020-03-03 10:25:36+0530
