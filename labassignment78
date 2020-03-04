@@ -1,0 +1,30 @@
+Script started on 2020-03-04 10:20:13+0530
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments[00m$ mkdi rt[K lab8dir; cd mkdir[K[K[K[K[Klabi[K8dir; pwd
+mkdir: cannot create directory ‘lab8dir’: File exists
+/home/krishagni/Linux_Assignment/Linux-Assignments/lab8dir
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments/lab8dir[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments/lab8diir[00m$ c[Kcp ../l[Klabassignment12 ./
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments/lab8dir[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments/lab8diir[00m$ history [K 5
+ 1531  script -a labassignment78
+ 1532  exit
+ 1533  mkdir lab8dir; cd lab8dir; pwd
+ 1534  cp ../labassignment12 ./
+ 1535  history 5
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments/lab8dir[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments/lab8diir[00m$ alisa[K[Kas h[Kmyhistor[K[K[K[K[K[K[K[Kmycommand=`history 5`
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments/lab8dir[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments/lab8diir[00m$ mycoomm[K[K[Kmmand
+1532: command not found
+1533: command not found
+bash: cd: lab8dir: No such file or directory
+/home/krishagni/Linux_Assignment/Linux-Assignments/lab8dir
+1534: command not found
+1535: command not found
+1536: command not found
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments/lab8dir[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments/lab8diir[00m$ history 5
+ 1534  cp ../labassignment12 ./
+ 1535  history 5
+ 1536  alias mycommand=`history 5`
+ 1537  mycommand
+ 1538  history 5
+]0;krishagni@krishagni-Lenovo-G560: ~/Linux_Assignment/Linux-Assignments/lab8dir[01;32mkrishagni@krishagni-Lenovo-G560[00m:[01;34m~/Linux_Assignment/Linux-Assignments/lab8diir[00m$ exit
+exit
+
+Script done on 2020-03-04 10:23:51+0530
